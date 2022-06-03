@@ -1,0 +1,66 @@
+@keyframes ldio-py87g1e9w5s {
+    0% { transform: translate(12px,80px) scale(0); }
+    25% { transform: translate(12px,80px) scale(0); }
+    50% { transform: translate(12px,80px) scale(1); }
+    75% { transform: translate(80px,80px) scale(1); }
+    100% { transform: translate(148px,80px) scale(1); }
+}
+@keyframes ldio-py87g1e9w5s-r {
+    0% { transform: translate(148px,80px) scale(1); }
+    100% { transform: translate(148px,80px) scale(0); }
+}
+@keyframes ldio-py87g1e9w5s-c {
+    0% { background: #93dbe9 }
+    25% { background: #3b4368 }
+    50% { background: #5e6fa3 }
+    75% { background: #689cc5 }
+    100% { background: #93dbe9 }
+}
+.ldio-py87g1e9w5s div {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(80px,80px) scale(1);
+    background: #93dbe9;
+    animation: ldio-py87g1e9w5s 2.4390243902439024s infinite cubic-bezier(0,0.5,0.5,1);
+}
+.ldio-py87g1e9w5s div:nth-child(1) {
+    background: #689cc5;
+    transform: translate(148px,80px) scale(1);
+    animation: ldio-py87g1e9w5s-r 0.6097560975609756s infinite cubic-bezier(0,0.5,0.5,1), ldio-py87g1e9w5s-c 2.4390243902439024s infinite step-start;
+}
+.ldio-py87g1e9w5s div:nth-child(2) {
+    animation-delay: -0.6097560975609756s;
+    background: #93dbe9;
+}
+.ldio-py87g1e9w5s div:nth-child(3) {
+    animation-delay: -1.2195121951219512s;
+    background: #689cc5;
+}
+.ldio-py87g1e9w5s div:nth-child(4) {
+    animation-delay: -1.8292682926829267s;
+    background: #5e6fa3;
+}
+.ldio-py87g1e9w5s div:nth-child(5) {
+    animation-delay: -2.4390243902439024s;
+    background: #3b4368;
+}
+.loadingio-spinner-ellipsis-xwgbwhwqrh {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: none;
+}
+.ldio-py87g1e9w5s {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; 
+}
+.ldio-py87g1e9w5s div { 
+    box-sizing: content-box; 
+}
