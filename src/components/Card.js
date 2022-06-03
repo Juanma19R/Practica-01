@@ -54,7 +54,7 @@ const Card = ({showData, loadingData, weather, forecast}) => {
                                     <img src='https://images.pexels.com/photos/12185637/pexels-photo-12185637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt="Foto de Buenos Aires" className="img-fluid rounded-start"/>
                                 </div>
                                 <div className="col-md-8">
-                                    <div className="card-body text-start mt-2">
+                                    <div className="card-body mt-2">
                                         <h5 className="card-text">Temperatura máxima: {(weather.main.temp_max - 273.15).toFixed(1)}°C</h5>
                                         <h5 className="card-text">Temperatura mínima: {(weather.main.temp_min - 273.15).toFixed(1)}°C</h5>
                                         <h5 className="card-text">Sensación térmica: {(weather.main.feels_like - 273.15).toFixed(1)}°C</h5>
@@ -63,19 +63,19 @@ const Card = ({showData, loadingData, weather, forecast}) => {
                                         <hr/>
                                         <div className="row mt-4">
                                             <div className="col">
-                                                <small>{forecastDate3}hs</small>
-                                                <small className="description"><img src={iconUrl3} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[1].weather[0].description}</small>
+                                                <p>{forecastDate3}hs</p>
                                                 <p className="temp">{(forecast.list[1].main.temp - 273.15).toFixed(1)}°C</p>
+                                                <small className="description"><img src={iconUrl3} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[1].weather[0].description}</small>
                                             </div>
                                             <div className="col">
-                                                <small>{forecastDate6}hs</small>
-                                                <small className="description"><img src={iconUrl6} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[2].weather[0].description}</small>
+                                                <p>{forecastDate6}hs</p>
                                                 <p className="temp">{(forecast.list[2].main.temp - 273.15).toFixed(1)}°C</p>
+                                                <small className="description"><img src={iconUrl6} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[2].weather[0].description}</small>
                                             </div>
                                             <div className="col">
-                                                <small>{forecastDate9}hs</small>
-                                                <small className="description"><img src={iconUrl9} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[3].weather[0].description}</small>
+                                                <p>{forecastDate9}hs</p>
                                                 <p className="temp">{(forecast.list[3].main.temp - 273.15).toFixed(1)}°C</p>
+                                                <small className="description"><img src={iconUrl9} alt="Icono para ilustrar el estado del clima en las proximas horas"/>{forecast.list[3].weather[0].description}</small>
                                             </div>
                                         </div>
                                     </div>
